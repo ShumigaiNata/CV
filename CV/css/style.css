@@ -1,0 +1,124 @@
+* {
+    font-family: Calibri, sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.wrapper {
+    display: flex;
+    justify-content: space-between;
+    max-width: 640px;
+    margin: 50px auto;
+    border: 1px solid #e8ebeb;
+    border-radius: 5px;
+    box-shadow: 10px 10px 15px rgba(70,70,70,0.3);
+}
+.blockLeft {
+    background: #a9d1d4;
+    color: #ffffff;
+    padding: 30px 20px;
+    max-width: 40%;
+}
+.photo {
+     width: 100%;
+ }
+.nameWhite {
+    display: none;
+}
+.nameBlack {
+    display: block;
+}
+.blockContact {
+    padding-top: 20px;
+}
+.titleWrite {
+    padding: 10px 0 5px;
+    border-bottom: 3px solid #ffffff;
+    margin-bottom: 10px;
+}
+.linkContact {
+    text-decoration: none;
+    color: #ffffff;
+    cursor: pointer;
+}
+.linkContact:hover {
+    color: #222222;
+}
+.iconContacts {
+    fill: #949494;
+    height: 20px;
+    padding-right: 5px;
+}
+.skills {
+    padding-left: 20px;
+}
+.lang {
+    padding-bottom: 20px;
+}
+.blockRight {
+    padding: 30px 20px 10px;
+}
+.nameBlock {
+    text-align: center;
+    padding-bottom: 20px;
+}
+.name {
+    font-size: 40px;
+}
+.titleBlack {
+    padding: 10px 0 5px;
+    border-bottom: 3px solid #000000;
+    margin-bottom: 10px;
+}
+.text {
+    text-indent: 15px;
+    width: 100%;
+    text-align: justify;
+}
+.education {
+    padding-left: 20px;
+}
+.education li {
+    padding-bottom: 10px;
+}
+.education ul {
+    padding-left: 20px;
+}
+.blockLink {
+    padding-left: 20px;
+}
+.linkProject {
+    text-decoration: none;
+    color: #000000;
+    cursor: pointer;
+}
+.linkProject:hover, .git:hover{
+    color: #3EA8BA;
+}
+footer {
+    display: flex;
+    justify-content: center;
+    padding-top: 40px;
+}
+.git {
+    text-decoration: none;
+    color: #000000;
+}
+@media screen and (max-width: 500px) {
+    .wrapper {
+        display: flex;
+        flex-direction: column;
+    }
+    .blockLeft {
+        max-width: 100%;
+    }
+    .nameWhite {
+        display: block;
+    }
+    .nameBlack {
+        display: none;
+    }
+    footer {
+        padding-top: 20px;
+    }
+}
